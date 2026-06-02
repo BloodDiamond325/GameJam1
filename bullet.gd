@@ -58,3 +58,4 @@ func _ready() -> void:
 func _on_timer_timeout() -> void:
 	if not _has_hit:
 		queue_free()
+
